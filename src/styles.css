@@ -148,6 +148,7 @@ button {
 }
 
 .nav-tabs button,
+.nav-tabs a,
 .action-bar button,
 .small-button,
 .share-actions button,
@@ -156,6 +157,36 @@ button {
   padding: 10px 14px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+}
+
+.nav-tabs a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.icon-link {
+  min-height: 100%;
+  min-width: 52px;
+  padding-block: 10px;
+  padding-inline: 12px;
+  border: 1px solid var(--border);
+  background: var(--panel-alt);
+}
+
+.icon-link svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.nav-tabs a:hover,
+.nav-tabs a:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: 0 0 18px var(--glow);
+  outline: none;
 }
 
 .nav-tabs .active,
