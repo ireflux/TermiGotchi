@@ -627,19 +627,22 @@ export function App() {
               </label>
               <label className="inline-toggle">
                 <span>Shiny</span>
-                <input
-                  type="checkbox"
-                  checked={pet.appearance.shiny}
-                  onChange={event =>
-                    setPet(current => ({
-                      ...current,
-                      appearance: {
-                        ...current.appearance,
-                        shiny: event.target.checked,
-                      },
-                    }))
-                  }
-                />
+                <span className="switch">
+                  <input
+                    type="checkbox"
+                    checked={pet.appearance.shiny}
+                    onChange={event =>
+                      setPet(current => ({
+                        ...current,
+                        appearance: {
+                          ...current.appearance,
+                          shiny: event.target.checked,
+                        },
+                      }))
+                    }
+                  />
+                  <span className="switch-track" aria-hidden="true" />
+                </span>
               </label>
             </section>
 
@@ -797,13 +800,12 @@ export function App() {
       {view === 'about' ? (
         <main className="panel about-view">
           <h2>About TermiGotchi</h2>
-          <p>{appName} is a static terminal pet builder designed for the browser.</p>
-          <p>Customize a sprite, edit its profile, and share the result as a link or export.</p>
+          <p>TermiGotchi is a lightweight browser application for designing and sharing terminal-style virtual pets.</p>
+          <p>The Builder provides control over appearance, stats, and profile data, while the Gallery offers a fast way to explore visual variants before returning to an editable configuration.</p>
           <ul>
-            <li>Open Builder to customize a pet.</li>
-            <li>Use Gallery to browse visual variants.</li>
-            <li>Copy the share link to reproduce a build on another device.</li>
-            <li>No backend required. State lives in the URL or local storage.</li>
+            <li>Customize sprite, rarity, and profile details in one place.</li>
+            <li>Apply stat presets or fine-tune values manually.</li>
+            <li>Export assets or share a reproducible build by link.</li>
           </ul>
         </main>
       ) : null}
