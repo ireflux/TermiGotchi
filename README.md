@@ -1,3 +1,16 @@
+<h1 align="center">
+  <pre>
+-----------------------
+< I'm your TermiGotchi! >
+-----------------------
+       -+-     
+    (\\__/)   
+    ( o  o )  
+    =(  ..  )= 
+    (")__(")  
+  </pre>
+</h1>
+
 # TermiGotchi
 
 `TermiGotchi` is a standalone static web app for building, styling, and sharing an ASCII terminal pet.
@@ -71,14 +84,6 @@ TermiGotchi/
 |-- tsconfig*.json
 `-- vite.config.ts
 ```
-
-## Docs
-
-- [PRD v1](./docs/prd-v1.md)
-- [Information Architecture](./docs/information-architecture.md)
-- [Page Copy Draft](./docs/page-copy-draft.md)
-- [Data Constants Table](./docs/data-constants.md)
-- [Implementation Task Breakdown](./docs/implementation-breakdown.md)
 
 ## Current Status
 
