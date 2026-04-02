@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TermiGotchi icon">
+  <rect width="64" height="64" rx="8" fill="#07110a"/>
+  <rect x="4" y="4" width="56" height="56" rx="6" fill="#0b1b11" stroke="#2a6d37" stroke-width="2"/>
+  <path d="M24 17h16v4H24zM22 21h20v4H22z" fill="#6dff82"/>
+  <path d="M20 25h24v4H20z" fill="#9ff5a8"/>
+  <circle cx="26" cy="34" r="2.5" fill="#9ff5a8"/>
+  <circle cx="38" cy="34" r="2.5" fill="#9ff5a8"/>
+  <path d="M20 45h24" stroke="#6dff82" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 41c2 4 14 4 16 0" stroke="#9ff5a8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M16 49l4-8M24 49l4-8M32 49l4-8M40 49l4-8M48 49l-4-8" stroke="#6dff82" stroke-width="2" stroke-linecap="round"/>
+</svg>
